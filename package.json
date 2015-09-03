@@ -1,0 +1,39 @@
+{
+  "name": "kj-logger-winston",
+  "version": "0.0.1",
+  "description": "Winston logger for the kj webapp framework.",
+  "author": "Ron Elliott <ron@elliott.im>",
+  "license": "ISC",
+  "keywords": [
+    "webapp",
+    "framework",
+    "logger",
+    "winston"
+  ],
+  "scripts": {
+    "coverage:upload": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "mocha",
+    "test:coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "proxyquire": "^1.7.1",
+    "should": "^7.0.4",
+    "sinon": "^1.15.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronelliott/kj-logger-winston.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ronelliott/kj-logger-winston/issues"
+  },
+  "homepage": "https://github.com/ronelliott/kj-logger-winston#readme",
+  "dependencies": {
+    "is": "^3.0.1",
+    "simple-fmt": "^0.1.0",
+    "winston": "^1.0.1"
+  }
+}
