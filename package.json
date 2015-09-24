@@ -1,6 +1,6 @@
 {
   "name": "kj-logger-winston",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Winston logger for the kj webapp framework.",
   "author": "Ron Elliott <ron@elliott.im>",
   "license": "ISC",
