@@ -14,8 +14,8 @@ module.exports.init = function($$app, $$resolver, $opts) {
             return new Date().getTime() - startTime;
         };
 
-    $$app.on('app:start', function(app, port) {
-        logger.info(formatter('Listening on ' + port));
+    $$app.on('app:start', function(app, port, host) {
+        logger.info(formatter('Listening on ' + host + ':' + port));
     });
 
     $$app.on('app:init:end', function() {
