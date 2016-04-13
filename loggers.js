@@ -1,6 +1,6 @@
 'use strict';
 
-var is = require('is');
+const is = require('is');
 
 module.exports.add = function($$resolver, winston, $opts) {
     Object.keys($opts)

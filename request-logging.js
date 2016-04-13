@@ -1,6 +1,6 @@
 'use strict';
 
-var fmt = require('simple-fmt');
+const fmt = require('simple-fmt');
 
 module.exports.init = function($$app, $$resolver, $opts) {
     var level = $opts.level || 'info',

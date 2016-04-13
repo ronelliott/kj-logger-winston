@@ -1,7 +1,7 @@
 'use strict';
 
-var fmt = require('simple-fmt'),
-    startTime = new Date().getTime();
+const fmt = require('simple-fmt'),
+      startTime = new Date().getTime();
 
 module.exports.init = function($$app, $$resolver, $opts) {
     var logger = $$resolver($opts.logger),
