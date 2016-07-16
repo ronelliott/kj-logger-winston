@@ -16,13 +16,13 @@
     "test:coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
   "devDependencies": {
-    "coveralls": "^2.11.9",
-    "istanbul": "^0.4.3",
-    "mocha": "^2.4.5",
-    "proxyquire": "^1.7.4",
+    "coveralls": "^2.11.11",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.0.0-1",
+    "proxyquire": "^1.7.10",
     "reflekt": "^0.3.9",
-    "should": "^8.3.0",
-    "sinon": "^1.17.3"
+    "should": "^9.0.2",
+    "sinon": "^2.0.0-pre.2"
   },
   "repository": {
     "type": "git",
